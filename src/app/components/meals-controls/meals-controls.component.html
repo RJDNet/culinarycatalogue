@@ -1,0 +1,15 @@
+<div class="controlsContainer">
+  <div class="butContainer">
+    <a class="homeLink" [routerLink]="['/']"><button class="homeBut" mat-raised-button color="primary">Home</button></a>
+  </div>
+  <div class="areaSelect">
+    <mat-form-field>
+      <mat-label>Meals by Area</mat-label>
+      <mat-select [value]="selectValue" (selectionChange)="selectChangeHandler($event)">
+        <mat-option *ngFor="let area of areasData" [value]="area.strArea">
+          {{area.strArea}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>

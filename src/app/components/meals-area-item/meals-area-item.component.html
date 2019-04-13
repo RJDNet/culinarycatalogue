@@ -1,0 +1,14 @@
+<a *ngIf="meal" class="mealAreaItemLink" [routerLink]="['/meal', meal?.idMeal]">
+  <div class="mealAreaItemContainer">
+    <ul>
+      <li class="mealAreaItemLi">
+        <div class="mealAreaItemImageContainer">
+          <img class="mealAreaItemImage" src={{meal?.strMealThumb}} />
+        </div>
+        <p class="mealAreaItemCategory">
+          {{ meal?.strMeal }}
+        </p>
+      </li>
+    </ul>
+  </div>
+</a>

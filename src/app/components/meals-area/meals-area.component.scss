@@ -1,0 +1,15 @@
+.mealsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // max-width: 1146px;
+  margin: 0px auto;
+  padding-bottom: 40px;
+}
+
+.paginationControls {
+  width: 270px;
+  margin: 0px auto;
+  margin-top: 20px;
+  text-align: center;
+}

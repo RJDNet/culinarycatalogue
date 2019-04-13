@@ -1,0 +1,15 @@
+<h1 style="text-align:center">{{ area }}</h1>
+
+<div class="paginationControls">
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
+
+<p class="error" *ngIf="error" style="text-align:center">{{ error }}</p>
+<div *ngIf="showLoader" class="spinner">
+  <mat-spinner></mat-spinner>
+</div>
+
+<div class="mealsContainer">
+  <app-meals-area-item *ngFor="let meal of areaMealsData | paginate: { itemsPerPage: 8, currentPage: p }" [meal]="meal">
+  </app-meals-area-item>
+</div>

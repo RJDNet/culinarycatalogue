@@ -1,0 +1,46 @@
+.mealCategoryItemContainer {
+  min-height: 180px;
+  width: 220px;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #dfe0ec;
+  // box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.mealCategoryItemContainer:hover {
+  box-shadow: 0px 0px 10px #caccce;
+}
+
+.mealCategoryItemLink {
+  color: black;
+}
+
+.mealCategoryItemLi {
+  width: 220px;
+  list-style-type: none;
+}
+
+.mealCategoryItemCategory {
+  text-align: center;
+  padding-top: 25px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.mealCategoryItemImageContainer {
+  padding-top: 20px;
+  width: 160px;
+  justify-content: center;
+  margin: 0px auto !important;
+}
+
+.mealCategoryItemImage {
+  height: 100px;
+  width: 160px;
+}
