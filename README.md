@@ -8,7 +8,9 @@ App allows browsing various recipes based on a variety of food categories.
 
 A 'SPA' built with Angular 7, uses the TheMealDB.com api for recipe data. Includes universal rendering (Server Side Rendering), RXJS Observables, loading and error states and Unit/Integration & E2E testing.
 
+# Link to project
 
+https://culinarycatalogue.herokuapp.com/'
 
 
 
